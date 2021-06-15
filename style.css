@@ -1,0 +1,206 @@
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
+.bg-black {
+  background-color: rgba(14, 14, 14, 1.00)
+}
+
+.tbox {
+  text-align: center;
+  width: 100%;
+  height: auto;
+  background-color: red;
+  padding-bottom: 5px;
+}
+
+.top-icons {
+  text-align: right;
+  width: 15px;
+  margin: 10px 10px 10px 10px;
+}
+
+.carousel-caption {
+  top: 200px;
+}
+
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+}
+
+.bg-orange {
+  background-color: #f0644f;
+  color: aliceblue;
+  font-weight: 600;
+  text-align: center
+}
+
+.brand {
+  font-size: 30px;
+  font-family: cursive;
+  color: yellow;
+  font-weight: bolder;
+  animation: colorchange 1s infinite;
+}
+
+@keyframes colorchange {
+  0% {
+    color: rgb(255, 15, 15);
+  }
+
+  25% {
+    color: rgb(224, 224, 224);
+  }
+
+  50% {
+    color: rgb(15, 250, 74);
+  }
+
+  100% {
+    color: rgb(0, 52, 209);
+  }
+}
+
+.m-right {
+  border: 2px solid #f0644f;
+  border-right: 2px solid white;
+}
+
+.underline {
+  width: 100px;
+  height: 2px;
+  background-color: orangered;
+}
+
+.bg-light-gray {
+  background-color: rgba(111, 111, 111, 0.09)
+}
+
+.media img {
+  max-width: 120px;
+  height: 120px;
+}
+
+.underline-green {
+  width: 70px;
+  height: 2px;
+  background-color: lawngreen
+}
+
+.underline-blue {
+  width: 70px;
+  height: 2px;
+  background-color: mediumblue;
+}
+
+.underline-black {
+  width: 70px;
+  height: 2px;
+  background-color: black;
+}
+
+.card-body {
+  text-align: center;
+}
+
+.blog .media img {
+  max-width: 200px;
+  height: auto;
+}
+
+.cbox {
+  background-color: #f41eff;
+}
+
+.slogan {
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  margin: 0;
+  font-weight: bolder;
+  animation: colorchange 2s infinite;
+}
+
+@keyframes colorchange {
+  0% {
+    color: rgb(0, 102, 0);
+  }
+
+  25% {
+   color: rgb(255, 34, 244);
+  }
+
+  50% {
+     color: rgb(255, 0, 0);
+  }
+
+  100% {
+    color: yellow;
+  }
+}
+
+.work {
+  font-weight: bolder;
+  animation: colorchange 1s infinite;
+}
+
+@keyframes colorchange {
+  0% {
+    color: lightgreen;
+  }
+
+  25% {
+    color: red;
+  }
+
+  50% {
+    color: black;
+  }
+
+  100% {
+    color: royalblue;
+  }
+}
+
+.headings {
+  font-weight: bolder;
+}
+
+.home-box {
+  margin: 10px;
+  background-color: grey;
+  color: #fff;
+}
+
+.intro {
+  background-color: #f4f9f4;
+  padding-top: 50px;
+  text-align: center;
+  width: 100;
+  height: auto;
+}
+
+.content {
+  font-size: 18px;
+  text-align: justify;
+  margin: auto 200px;
+}
+
+@media (max-width:900px) {
+  .content {
+    margin: auto;
+  }
+}
+
+.copyright {
+  width: auto;
+  height: auto;
+  background-color: grey;
+  text-align: center;
+  padding: 8px;
+}
